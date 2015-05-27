@@ -53,8 +53,7 @@ body > div {
     font-size: 24px;
     margin: 50px; }
   .order pre.story {
-    font-size: 14px;
-    line-height: 28px; }
+    font-size: 14px; }
   .order .footer {
     margin-top: 240px; }
 
@@ -287,7 +286,7 @@ body > div {
       margin-top: 140px; }
 
   .order {
-    height: 1100px; }
+    height: 1300px; }
     .order .button {
       font-size: 36px;
       width: 400px;
