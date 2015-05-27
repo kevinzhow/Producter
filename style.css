@@ -250,7 +250,8 @@ body > div {
       right: 150px;
       font-weight: bold; }
       .quotes .bubble .name:before {
-        content: "⸺ "; }
+        content: '- ';
+        font-weight: lighter; }
       .quotes .bubble .name .bio {
         font-size: 14px;
         font-weight: lighter;

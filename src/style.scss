@@ -279,7 +279,8 @@ body{
             font-weight: bold;
 
             &:before{
-                content: '⸺ '
+                content: '- ';
+                font-weight: lighter;
             }
 
             .bio{
