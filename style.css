@@ -2,9 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box; }
+  box-sizing: border-box; }
 
 html, body {
   width: 100%;
@@ -22,8 +20,7 @@ body > div {
   .cover img.book {
     width: 200px;
     margin-top: 180px;
-    -webkit-box-shadow: 20px 10px 20px 0px rgba(0, 0, 0, 0.1);
-            box-shadow: 20px 10px 20px 0px rgba(0, 0, 0, 0.1); }
+    box-shadow: 20px 10px 20px 0px rgba(0, 0, 0, 0.1); }
 
 .order {
   width: 100%;
@@ -42,8 +39,7 @@ body > div {
     line-height: 58px;
     text-decoration: none;
     margin: 50px;
-    -webkit-transition: all 0.1s ease-out;
-            transition: all 0.1s ease-out; }
+    transition: all 0.1s ease-out; }
     .order .button:hover {
       background-color: black;
       color: white; }
@@ -61,7 +57,6 @@ body > div {
 .apps {
   width: 100%;
   height: 600px;
-  background-image: -webkit-linear-gradient(270deg, #FAFAFA 0%, #EBEBEB 67%, #FFFFFF 83%, #FAFAFA 100%);
   background-image: linear-gradient(-180deg, #FAFAFA 0%, #EBEBEB 67%, #FFFFFF 83%, #FAFAFA 100%); }
   .apps .macbook {
     width: 600px;
@@ -79,52 +74,22 @@ body > div {
       .apps .macbook .screen .images {
         white-space: nowrap;
         height: 100%;
-        -webkit-animation: screen 10s cubic-bezier(0.19, 1, 0.22, 1) 0s infinite;
-                animation: screen 10s cubic-bezier(0.19, 1, 0.22, 1) 0s infinite; }
-@-webkit-keyframes screen {
-  0% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px); }
-  25% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px); }
-  35% {
-    -webkit-transform: translateX(-435px);
-            transform: translateX(-435px); }
-  60% {
-    -webkit-transform: translateX(-435px);
-            transform: translateX(-435px); }
-  70% {
-    -webkit-transform: translateX(-870px);
-            transform: translateX(-870px); }
-  90% {
-    -webkit-transform: translateX(-870px);
-            transform: translateX(-870px); }
-  100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px); } }
+        animation: screen 10s cubic-bezier(0.19, 1, 0.22, 1) 0s infinite; }
 @keyframes screen {
   0% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px); }
+    transform: translateX(0px); }
   25% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px); }
+    transform: translateX(0px); }
   35% {
-    -webkit-transform: translateX(-435px);
-            transform: translateX(-435px); }
+    transform: translateX(-435px); }
   60% {
-    -webkit-transform: translateX(-435px);
-            transform: translateX(-435px); }
+    transform: translateX(-435px); }
   70% {
-    -webkit-transform: translateX(-870px);
-            transform: translateX(-870px); }
+    transform: translateX(-870px); }
   90% {
-    -webkit-transform: translateX(-870px);
-            transform: translateX(-870px); }
+    transform: translateX(-870px); }
   100% {
-    -webkit-transform: translateX(0px);
-            transform: translateX(0px); } }
+    transform: translateX(0px); } }
         .apps .macbook .screen .images img {
           height: 100%;
           display: inline-block;
@@ -173,11 +138,8 @@ body > div {
       padding: 20px;
       right: 40px;
       background-color: white;
-      -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-              box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-      -webkit-column-count: 2;
-         -moz-column-count: 2;
-              column-count: 2;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      column-count: 2;
       display: none; }
       .chapters .chapter ul.drawer li {
         display: block;
@@ -190,12 +152,9 @@ body > div {
   height: 500px;
   text-align: center;
   background-color: #F2F2F2;
-  background-image: -webkit-linear-gradient(270deg, #FAFAFA 0%, #EDEDED 33%, #FCFCFC 67%, #FAFAFA 100%);
   background-image: linear-gradient(-180deg, #FAFAFA 0%, #EDEDED 33%, #FCFCFC 67%, #FAFAFA 100%);
   padding: 50px;
   overflow-y: hidden; }
-  .quotes::-moz-selection {
-    background-color: transparent; }
   .quotes::selection {
     background-color: transparent; }
   .quotes .bubble {
@@ -208,26 +167,22 @@ body > div {
     background-position: center center;
     text-align: left;
     position: relative;
-    -webkit-transition: all 0.1s ease-out;
-            transition: all 0.1s ease-out; }
+    transition: all 0.1s ease-out; }
     .quotes .bubble:after {
       position: absolute;
       left: 116px;
       top: 140px;
       width: 550px;
       height: 10px;
-      -webkit-border-radius: 50%;
-              border-radius: 50%;
+      border-radius: 50%;
       display: block;
       content: '';
       margin: 50px auto 0;
-      -webkit-box-shadow: 0 180px 30px rgba(0, 0, 0, 0.1);
-              box-shadow: 0 180px 30px rgba(0, 0, 0, 0.1); }
+      box-shadow: 0 180px 30px rgba(0, 0, 0, 0.1); }
     .quotes .bubble .avatar {
       width: 100px;
       height: 100px;
-      -webkit-border-radius: 50%;
-              border-radius: 50%;
+      border-radius: 50%;
       position: absolute;
       top: 150px;
       left: 116px; }
@@ -275,9 +230,7 @@ body > div {
       float: left; }
     .quotes .ctrl .right {
       float: right;
-      -webkit-transform: rotate(180deg);
-          -ms-transform: rotate(180deg);
-              transform: rotate(180deg); }
+      transform: rotate(180deg); }
 
 @media screen and (max-width: 1000px) {
   .cover {
@@ -334,15 +287,12 @@ body > div {
       bottom: 0;
       left: 0;
       right: 0;
-      -webkit-column-count: 1;
-         -moz-column-count: 1;
-              column-count: 1;
+      column-count: 1;
       font-size: 30px;
       padding: 40px;
       margin: 40px;
       margin: auto;
-      -webkit-box-shadow: 0 0px 0px 200px rgba(0, 0, 0, 0.2);
-              box-shadow: 0 0px 0px 200px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0px 0px 200px rgba(0, 0, 0, 0.2);
       background-image: url(./img/x.png);
       background-repeat: no-repeat;
       background-position: top right;
@@ -384,3 +334,5 @@ body > div {
   .order .footer {
     margin-top: 650px;
     font-size: 24px; } }
+
+/*# sourceMappingURL=style.css.map */
