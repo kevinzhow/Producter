@@ -1,0 +1,385 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  color: black;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+body > div {
+  overflow: auto; }
+
+.cover {
+  width: 100%;
+  height: 640px;
+  background-color: #F2F2F2;
+  text-align: center; }
+  .cover img.book {
+    width: 200px;
+    margin-top: 180px;
+    -webkit-box-shadow: 20px 10px 20px 0px rgba(0, 0, 0, 0.1);
+            box-shadow: 20px 10px 20px 0px rgba(0, 0, 0, 0.1); }
+
+.order {
+  width: 100%;
+  height: 600px;
+  padding: 50px;
+  text-align: center; }
+  .order .button {
+    border: 2px solid #000000;
+    display: inline-block;
+    color: black;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    letter-spacing: 6px;
+    text-indent: 6px;
+    line-height: 58px;
+    text-decoration: none;
+    margin: 50px;
+    -webkit-transition: all 0.1s ease-out;
+            transition: all 0.1s ease-out; }
+    .order .button:hover {
+      background-color: black;
+      color: white; }
+  .order .slogan {
+    font-family: "Times New Roman",Georgia,Serif;
+    font-style: italic;
+    font-size: 24px;
+    margin: 50px; }
+  .order pre.story {
+    font-size: 14px;
+    line-height: 28px; }
+  .order .footer {
+    margin-top: 240px; }
+
+.apps {
+  width: 100%;
+  height: 600px;
+  background-image: -webkit-linear-gradient(270deg, #FAFAFA 0%, #EBEBEB 67%, #FFFFFF 83%, #FAFAFA 100%);
+  background-image: linear-gradient(-180deg, #FAFAFA 0%, #EBEBEB 67%, #FFFFFF 83%, #FAFAFA 100%); }
+  .apps .macbook {
+    width: 600px;
+    height: 370px;
+    background-image: url(./img/macbook.svg);
+    background-size: 600px;
+    background-repeat: no-repeat;
+    margin: 150px auto 0;
+    overflow: auto; }
+    .apps .macbook .screen {
+      width: 425px;
+      height: 266px;
+      overflow: hidden;
+      margin: 53px auto 0; }
+      .apps .macbook .screen .images {
+        white-space: nowrap;
+        height: 100%;
+        -webkit-animation: screen 10s cubic-bezier(0.19, 1, 0.22, 1) 0s infinite;
+                animation: screen 10s cubic-bezier(0.19, 1, 0.22, 1) 0s infinite; }
+@-webkit-keyframes screen {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px); }
+  25% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px); }
+  35% {
+    -webkit-transform: translateX(-435px);
+            transform: translateX(-435px); }
+  60% {
+    -webkit-transform: translateX(-435px);
+            transform: translateX(-435px); }
+  70% {
+    -webkit-transform: translateX(-870px);
+            transform: translateX(-870px); }
+  90% {
+    -webkit-transform: translateX(-870px);
+            transform: translateX(-870px); }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px); } }
+@keyframes screen {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px); }
+  25% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px); }
+  35% {
+    -webkit-transform: translateX(-435px);
+            transform: translateX(-435px); }
+  60% {
+    -webkit-transform: translateX(-435px);
+            transform: translateX(-435px); }
+  70% {
+    -webkit-transform: translateX(-870px);
+            transform: translateX(-870px); }
+  90% {
+    -webkit-transform: translateX(-870px);
+            transform: translateX(-870px); }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px); } }
+        .apps .macbook .screen .images img {
+          height: 100%;
+          display: inline-block;
+          vertical-align: top;
+          margin-right: 10px; }
+
+.chapters {
+  width: 100%;
+  padding: 50px; }
+  .chapters .chapter {
+    width: auto;
+    height: 300px;
+    margin: 50px auto;
+    position: relative;
+    padding-left: 50px; }
+    .chapters .chapter h1 {
+      position: absolute;
+      font-size: 120px;
+      color: #E6E6E6; }
+    .chapters .chapter pre {
+      position: absolute;
+      top: 140px;
+      font-size: 18px;
+      margin-left: 5px;
+      font-family: 'Lantinghei SC', 'Helvetica Neue', Helvetica, Arial; }
+    .chapters .chapter ul.sections {
+      position: absolute;
+      right: 0;
+      top: 30px;
+      line-height: 34px;
+      color: #404040;
+      list-style-position: inside;
+      width: 280px; }
+      .chapters .chapter ul.sections span {
+        color: #D0001B;
+        cursor: pointer; }
+        .chapters .chapter ul.sections span:before {
+          content: '▾';
+          margin-left: -3px;
+          margin-right: 7px; }
+    .chapters .chapter ul.drawer {
+      width: 580px;
+      height: 280px;
+      z-index: 5;
+      position: absolute;
+      padding: 20px;
+      right: 40px;
+      background-color: white;
+      -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+              box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      -webkit-column-count: 2;
+         -moz-column-count: 2;
+              column-count: 2;
+      display: none; }
+      .chapters .chapter ul.drawer li {
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        text-indent: 15px; }
+
+.quotes {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  background-color: #F2F2F2;
+  background-image: -webkit-linear-gradient(270deg, #FAFAFA 0%, #EDEDED 33%, #FCFCFC 67%, #FAFAFA 100%);
+  background-image: linear-gradient(-180deg, #FAFAFA 0%, #EDEDED 33%, #FCFCFC 67%, #FAFAFA 100%);
+  padding: 50px;
+  overflow-y: hidden; }
+  .quotes::-moz-selection {
+    background-color: transparent; }
+  .quotes::selection {
+    background-color: transparent; }
+  .quotes .bubble {
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    background-image: url(./img/bubble.svg);
+    background-repeat: no-repeat;
+    background-size: 800px 400px;
+    background-position: center center;
+    text-align: left;
+    position: relative;
+    -webkit-transition: all 0.1s ease-out;
+            transition: all 0.1s ease-out; }
+    .quotes .bubble:after {
+      position: absolute;
+      left: 116px;
+      top: 140px;
+      width: 550px;
+      height: 10px;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      display: block;
+      content: '';
+      margin: 50px auto 0;
+      -webkit-box-shadow: 0 180px 30px rgba(0, 0, 0, 0.1);
+              box-shadow: 0 180px 30px rgba(0, 0, 0, 0.1); }
+    .quotes .bubble .avatar {
+      width: 100px;
+      height: 100px;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      position: absolute;
+      top: 150px;
+      left: 116px; }
+    .quotes .bubble .say {
+      position: absolute;
+      padding: 25px;
+      top: 150px;
+      left: 255px;
+      width: 420px;
+      height: 100px;
+      display: block;
+      white-space: normal;
+      text-align: left;
+      font-family: "Times New Roman",Georgia,Serif;
+      font-style: italic;
+      font-size: 24px; }
+    .quotes .bubble .name {
+      position: absolute;
+      top: 270px;
+      right: 150px;
+      font-weight: bold; }
+      .quotes .bubble .name:before {
+        content: "⸺ "; }
+      .quotes .bubble .name .bio {
+        font-size: 14px;
+        font-weight: lighter;
+        padding-left: 10px; }
+  .quotes .ctrl {
+    width: 924px;
+    height: 100%;
+    margin: 0 auto;
+    top: -400px;
+    position: relative; }
+    .quotes .ctrl > div {
+      background-image: url(./img/arrow.svg);
+      background-repeat: no-repeat;
+      background-size: 30px 100px;
+      background-position: 0 center;
+      width: 100px;
+      height: 200px;
+      margin-top: 100px;
+      cursor: pointer; }
+    .quotes .ctrl .left {
+      float: left; }
+    .quotes .ctrl .right {
+      float: right;
+      -webkit-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+              transform: rotate(180deg); }
+
+@media screen and (max-width: 1000px) {
+  .cover {
+    height: 800px; }
+    .cover img.book {
+      width: 400px;
+      margin-top: 140px; }
+
+  .order {
+    height: 1100px; }
+    .order .button {
+      font-size: 36px;
+      width: 400px;
+      height: 100px;
+      line-height: 98px; }
+    .order .slogan {
+      font-size: 42px; }
+    .order pre.story {
+      font-size: 30px;
+      width: 500px;
+      margin: 0 auto;
+      margin-top: 100px;
+      white-space: normal;
+      line-height: 50px;
+      text-align: left; }
+
+  .chapters .chapter {
+    height: 800px;
+    padding-left: 0;
+    padding-left: 10%; }
+    .chapters .chapter h1 {
+      position: static;
+      margin-left: 0;
+      font-size: 80px; }
+    .chapters .chapter pre {
+      position: static;
+      font-size: 30px;
+      margin: 10px 0; }
+    .chapters .chapter ul.sections {
+      position: static;
+      font-size: 30px;
+      line-height: 80px;
+      color: #808080;
+      border-top: 2px solid #F1F1F1;
+      list-style-position: inside;
+      margin-top: 50px;
+      padding-top: 20px;
+      width: 100%; }
+    .chapters .chapter ul.drawer {
+      width: 90%;
+      height: 920px;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      -webkit-column-count: 1;
+         -moz-column-count: 1;
+              column-count: 1;
+      font-size: 30px;
+      padding: 40px;
+      margin: 40px;
+      margin: auto;
+      -webkit-box-shadow: 0 0px 0px 200px rgba(0, 0, 0, 0.2);
+              box-shadow: 0 0px 0px 200px rgba(0, 0, 0, 0.2);
+      background-image: url(./img/x.png);
+      background-repeat: no-repeat;
+      background-position: top right;
+      background-size: 60px;
+      background-origin: content-box; }
+      .chapters .chapter ul.drawer li {
+        width: 100%;
+        height: 70px;
+        line-height: 70px; }
+
+  .quotes .bubble {
+    width: 100%;
+    background: none;
+    text-align: center; }
+    .quotes .bubble:after {
+      display: none; }
+    .quotes .bubble img.avatar {
+      position: static;
+      margin: 50px; }
+    .quotes .bubble .say {
+      position: static;
+      margin: 0 auto;
+      padding: 10px;
+      font-size: 30px;
+      margin-bottom: 50px; }
+    .quotes .bubble p.name {
+      position: static;
+      text-align: right;
+      width: 420px;
+      margin: 0 auto;
+      font-size: 20px; }
+      .quotes .bubble p.name:before {
+        content: "- "; }
+      .quotes .bubble p.name span.bio {
+        font-size: 20px; }
+  .quotes .ctrl {
+    width: 100%; }
+
+  .order .footer {
+    margin-top: 650px;
+    font-size: 24px; } }

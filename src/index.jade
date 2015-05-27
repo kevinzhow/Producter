@@ -1,0 +1,51 @@
+//- By Ray 2015-05-25
+
+
+- var button_name = 'PRE-ORDER'
+- var button_link = 'http://#'
+
+
+html
+  head
+    title Playground
+    meta(charset='UTF-8')
+    meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=0.5, minimum-scale=0.5, maximum-scale=1.0")
+    link(href='style.css', type='text/css', rel='stylesheet')
+  body
+    .cover
+        img(src="img/book.svg").book
+    .order
+        a(href="#{button_link}", target="_blank").button #{button_name}
+        .slogan "Build product with love"
+        pre.story.
+            独立完成一款产品是很多人的梦想，也是我的梦想，
+            但是单单完成一个作品并没有什么价值，真正完成一款优秀的作品的难度远超过了“完成”这个词语。
+            设计上的锤炼，编程技艺的精进，营销的思考，让很多人都在起步阶段就放弃了。
+            从来没有一本书，去讲如何完整的完成这件事情。
+            我觉得应该有一本。
+    .apps
+        .macbook
+            .screen
+                .images
+                    img(src="img/screen_1.jpg")
+                    img(src="img/screen_2.jpg")
+                    img(src="img/screen_3.jpg")
+    .chapters
+        //- Contents appending here by script.
+
+    .quotes
+        .bubble
+            img.avatar
+            .say
+            p.name
+
+        .ctrl
+            .left
+            .right
+    .order
+        a(href="#{button_link}", target="_blank").button #{button_name}
+        .slogan "Build product with love"
+        .footer Producter by @kevinzhow ©2015 Catch Inc.
+
+    script(type="application/javascript", src="zepto.min.js")
+    script(type="application/javascript", src="script.js")
