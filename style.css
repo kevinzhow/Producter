@@ -57,7 +57,7 @@ body > div {
 .apps {
   width: 100%;
   height: 600px;
-  background-image: linear-gradient(-180deg, #FAFAFA 0%, #EBEBEB 67%, #FFFFFF 83%, #FAFAFA 100%); }
+  background-image: linear-gradient(-180deg, #fafafa 0%, #ebebeb 67%, white 83%, #fafafa 100%); }
   .apps .macbook {
     width: 600px;
     height: 370px;
@@ -74,22 +74,29 @@ body > div {
       .apps .macbook .screen .images {
         white-space: nowrap;
         height: 100%;
-        animation: screen 10s cubic-bezier(0.19, 1, 0.22, 1) 0s infinite; }
-@keyframes screen {
-  0% {
-    transform: translateX(0px); }
-  25% {
-    transform: translateX(0px); }
-  35% {
-    transform: translateX(-435px); }
-  60% {
-    transform: translateX(-435px); }
-  70% {
-    transform: translateX(-870px); }
-  90% {
-    transform: translateX(-870px); }
-  100% {
-    transform: translateX(0px); } }
+        animation: screen 10s cubic-bezier(0.19, 1, 0.22, 1) 0s infinite;
+        @keyframes screen {
+          0% {
+            transform: translateX(0px); }
+
+          25% {
+            transform: translateX(0px); }
+
+          35% {
+            transform: translateX(-435px); }
+
+          60% {
+            transform: translateX(-435px); }
+
+          70% {
+            transform: translateX(-870px); }
+
+          90% {
+            transform: translateX(-870px); }
+
+          100% {
+            transform: translateX(0px); } }
+ }
         .apps .macbook .screen .images img {
           height: 100%;
           display: inline-block;
@@ -152,7 +159,7 @@ body > div {
   height: 500px;
   text-align: center;
   background-color: #F2F2F2;
-  background-image: linear-gradient(-180deg, #FAFAFA 0%, #EDEDED 33%, #FCFCFC 67%, #FAFAFA 100%);
+  background-image: linear-gradient(-180deg, #fafafa 0%, #ededed 33%, #fcfcfc 67%, #fafafa 100%);
   padding: 50px;
   overflow-y: hidden; }
   .quotes::selection {
@@ -334,5 +341,3 @@ body > div {
   .order .footer {
     margin-top: 650px;
     font-size: 24px; } }
-
-/*# sourceMappingURL=style.css.map */

@@ -4,6 +4,7 @@ book = [
         desc: '学习最实用的设计法则，\n在 Sketch 和 Framer 中进行原型设计。',
         chapters:
             [
+                '从感觉开始',
                 '设计驱动开发',
                 '如何激发灵感',
                 '设计 iOS App',
@@ -31,14 +32,14 @@ book = [
             ]
     },
     {
-        title: 'Marketing',
-        desc: '学习 Swift 和 iOS，\n掌握最实用的开发技巧与工具',
+        title: 'Market',
+        desc: '掌握产品营销的方法，\n把产品推向市场',
         chapters:
             [
-                'Name your app',
-                'Product Positioning',
-                'Marketing your product',
-                'Beta Testing'
+                '本质',
+                '产品定位',
+                '营销的方法',
+                '文案'
             ]
     }
 ]
@@ -88,7 +89,7 @@ for c in book
 
     sections = $('<ul>', {class: 'sections'})
 
-    for i in [0..4]
+    for i in [0..5]
         if c.chapters[i] != undefined
             sections.append $('<li>', {text: c.chapters[i]})
 
@@ -97,7 +98,7 @@ for c in book
     $('.chapters').append chapter
 
 
-    if c.chapters.length > 5
+    if c.chapters.length > 6
 
         fullList = $('<ul>', {class: 'drawer'})
 
@@ -130,7 +131,7 @@ quote = (index) ->
             $('.quotes .bubble .say').html('"' + user.say + '"')
             $('.quotes .bubble .name').html(user.name)
             $('.quotes .bubble .name').append $('<span>', {class: 'bio', text: user.bio})
-            
+
 
             $('.quotes .bubble').animate
                 scale: 1
@@ -152,9 +153,3 @@ $('.ctrl .right').click ->
         quote(quoteIndex += 1)
     else
         quote(quoteIndex = 0)
-
-
-
-
-
-
