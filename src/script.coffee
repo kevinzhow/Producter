@@ -89,7 +89,7 @@ for c in book
 
     sections = $('<ul>', {class: 'sections'})
 
-    for i in [0..5]
+    for i in [0..4]
         if c.chapters[i] != undefined
             sections.append $('<li>', {text: c.chapters[i]})
 
@@ -98,9 +98,14 @@ for c in book
     $('.chapters').append chapter
 
 
-    if c.chapters.length > 6
+    if c.chapters.length > 5
 
-        fullList = $('<ul>', {class: 'drawer'})
+        fullList = $('<ul>', {class: 'drawer'}).mouseleave ->
+                $(this).fadeOut(200)
+            .tap ->
+                $(this).fadeOut(200)
+            
+
 
         for a in c.chapters
             fullList.append $('<li>', {text: a})
@@ -108,12 +113,9 @@ for c in book
         chapter.append fullList
 
         sections.append $('<span>', {text: 'Show All'}).click ->
-            $(fullList).fadeIn(200)
+            $(this).parent().parent().find('.drawer').fadeIn(200)
 
-        $(fullList).mouseleave ->
-            $(fullList).fadeOut(200)
-        $(fullList).tap ->
-            $(fullList).fadeOut(200)
+        
 
 
 
