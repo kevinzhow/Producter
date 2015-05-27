@@ -21,3 +21,6 @@ scss style.scss ../style.css
 # > style.css
 coffee --compile --output ../ script.coffee
 # > script.js
+autoprefixer --browsers 'last 10 versions' ../style.css
+# > add browser prefixers such as "-webkit-" ...
+```
