@@ -20,15 +20,20 @@
 
   users = [
     {
-      name: 'Jonathan Ive',
-      bio: 'Designer at Apple',
-      avatar: './img/jony.jpg',
-      say: 'I can code the system for Apple Watch by myself!'
+      name: '唐巧',
+      bio: '《iOS 开发进阶》作者',
+      avatar: './img/tangqiao.jpg',
+      say: '作为一个只会编程的码农，本书将我带进了设计和市场营销的世界，有一种误入桃花源，发现新大陆的感觉。'
     }, {
-      name: 'Louie Mantia',
+      name: 'Ping',
       bio: 'Designer at Parakeet',
       avatar: './img/mantia.jpg',
       say: 'This book is fucking awesome!'
+    }, {
+      name: 'Onevcat',
+      bio: '《Swifter》作者',
+      avatar: './img/onevcat.jpg',
+      say: '如果我只能通过一本书来帮自己走上设计道路的话，那么 Producter 是我唯一的选择。 '
     }, {
       name: 'Ray',
       bio: 'Artist at Catch Inc',

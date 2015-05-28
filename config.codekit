@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19022",
+"creatorBuild": "19033",
 "files": {
 	"\/favicon.png": {
 		"fileType": 32768,
@@ -31,6 +31,28 @@
 		"initialSize": 5214,
 		"inputAbbreviatedPath": "\/img\/mantia.jpg",
 		"outputAbbreviatedPath": "\/img\/mantia.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/onevcat.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99009,
+		"inputAbbreviatedPath": "\/img\/onevcat.jpg",
+		"outputAbbreviatedPath": "\/img\/onevcat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/onevcat.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 242576,
+		"inputAbbreviatedPath": "\/img\/onevcat.png",
+		"outputAbbreviatedPath": "\/img\/onevcat.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -79,6 +101,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/tangqiao.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84343,
+		"inputAbbreviatedPath": "\/img\/tangqiao.jpg",
+		"outputAbbreviatedPath": "\/img\/tangqiao.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -89,6 +122,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/README.md": {
 		"criticStyle": 0,
@@ -110,17 +152,6 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
-		},
-	"\/script.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/script.js",
-		"outputAbbreviatedPath": "\/min\/script-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/src\/_responsive.scss": {
 		"createSourceMap": 0,
@@ -201,7 +232,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Ray",
+"lastSavedByUser": "kevinzhow",
 "manualImportLinks": {
 	},
 "projectAttributes": {

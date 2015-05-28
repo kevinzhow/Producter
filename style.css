@@ -242,7 +242,7 @@ body > div {
       text-align: left;
       font-family: "Times New Roman",Georgia,Serif;
       font-style: italic;
-      font-size: 24px; }
+      font-size: 15px; }
     .quotes .bubble .name {
       position: absolute;
       top: 270px;
@@ -274,9 +274,7 @@ body > div {
       float: left; }
     .quotes .ctrl .right {
       float: right;
-      -webkit-transform: rotate(180deg);
-          -ms-transform: rotate(180deg);
-              transform: rotate(180deg); }
+      -webkit-transform: rotate(180deg); }
 
 @media screen and (max-width: 1000px) {
   .cover {
@@ -367,7 +365,7 @@ body > div {
       position: static;
       margin: 0 auto;
       padding: 10px;
-      font-size: 30px;
+      font-size: 14px;
       margin-bottom: 50px; }
     .quotes .bubble p.name {
       position: static;
