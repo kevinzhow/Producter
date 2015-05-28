@@ -96,6 +96,7 @@
       scale: 0.8,
       opacity: 0.2
     }, 100, 'ease-out', function() {
+      $('.quotes .bubble .avatar').attr('src', "");
       $('.quotes .bubble .avatar').attr('src', user.avatar);
       $('.quotes .bubble .say').html('"' + user.say + '"');
       $('.quotes .bubble .name').html(user.name);

@@ -229,7 +229,8 @@ body > div {
               border-radius: 50%;
       position: absolute;
       top: 150px;
-      left: 116px; }
+      left: 116px;
+      background-color: white; }
     .quotes .bubble .say {
       position: absolute;
       padding: 25px;

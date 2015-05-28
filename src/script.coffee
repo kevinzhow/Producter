@@ -133,6 +133,7 @@ quote = (index) ->
         100
         'ease-out'
         ->
+            $('.quotes .bubble .avatar').attr('src', "")
             $('.quotes .bubble .avatar').attr('src', user.avatar)
             $('.quotes .bubble .say').html('"' + user.say + '"')
             $('.quotes .bubble .name').html(user.name)
