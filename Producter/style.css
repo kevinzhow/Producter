@@ -210,8 +210,8 @@ body > div {
     background-position: center center;
     text-align: left;
     position: relative;
-    -webkit-transition: all 0.1s ease-out;
-            transition: all 0.1s ease-out; }
+    -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out; }
     .quotes .bubble:after {
       position: absolute;
       left: 116px;

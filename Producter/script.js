@@ -95,7 +95,7 @@
     return $('.quotes .bubble').animate({
       scale: 0.8,
       opacity: 0.2
-    }, 100, 'ease-out', function() {
+    }, 200, 'ease-in', function() {
       $('.quotes .bubble .avatar').attr('src', user.avatar);
       $('.quotes .bubble .say').html('"' + user.say + '"');
       $('.quotes .bubble .name').html(user.name);
@@ -106,7 +106,7 @@
       return $('.quotes .bubble').animate({
         scale: 1,
         opacity: 1
-      }, 250, 'ease-out');
+      });
     });
   };
 

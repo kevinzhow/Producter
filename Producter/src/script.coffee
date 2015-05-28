@@ -126,12 +126,11 @@ for c in book
 
 quote = (index) ->
     user = users[index]
-
     $('.quotes .bubble').animate
         scale: 0.8
         opacity: 0.2
-        100
-        'ease-out'
+        200
+        'ease-in'
         ->
             $('.quotes .bubble .avatar').attr('src', user.avatar)
             $('.quotes .bubble .say').html('"' + user.say + '"')
@@ -142,8 +141,7 @@ quote = (index) ->
             $('.quotes .bubble').animate
                 scale: 1
                 opacity: 1
-                250
-                'ease-out'
+
 quote(0)
 quoteIndex = 0
 
