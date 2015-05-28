@@ -46,17 +46,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Producter\/img\/onevcat.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 242576,
-		"inputAbbreviatedPath": "\/Producter\/img\/onevcat.png",
-		"outputAbbreviatedPath": "\/Producter\/img\/onevcat.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/Producter\/img\/ray.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -122,15 +111,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/Producter\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Producter\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/Producter\/README.md": {
 		"criticStyle": 0,
