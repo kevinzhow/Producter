@@ -22,23 +22,39 @@
     {
       name: '唐巧',
       bio: '《iOS 开发进阶》作者',
-      avatar: './img/tangqiao.jpg',
-      say: '作为一个只会编程的码农，本书将我带进了设计和市场营销的世界，有一种误入桃花源，发现新大陆的感觉。'
+      avatar: 'http://static-catch.qiniudn.com/tangqiao.jpg',
+      say: '这是一本跨界的书，融合了设计、编程，以及市场营销的知识。作为一个只会编程的码农，本书将我带进了设计和市场营销的世界，有一种误入桃花源，发现新大陆的感觉。',
+      "class": "long"
+    }, {
+      name: '池建强',
+      bio: '「池建强 MacTalk 出品人」',
+      avatar: 'http://static-catch.qiniudn.com/chijianqiang.jpg',
+      say: '人们每天起床，做着同样的事情，他们告诉自己，有一天要为世界做一款产品，但他们从不付诸行动。这是一本可以让你行动起来的技术、设计和产品之书。如果用一句话评价书中的产品「小记」，我想是：绝世而独立。',
+      "class": "long"
     }, {
       name: 'Ping',
-      bio: 'Designer at Parakeet',
-      avatar: './img/mantia.jpg',
-      say: 'This book is fucking awesome!'
+      bio: 'Founder of Color Code',
+      avatar: 'http://static-catch.qiniudn.com/mantia.jpg',
+      say: 'This book is fucking awesome!',
+      "class": "short"
     }, {
       name: 'Onevcat',
       bio: '《Swifter》作者',
-      avatar: './img/onevcat.jpg',
-      say: '如果我只能通过一本书来帮自己走上设计道路的话，那么 Producter 是我唯一的选择。 '
+      avatar: 'http://static-catch.qiniudn.com/onevcat.jpg',
+      say: '如果我只能通过一本书来帮自己走上设计道路的话，那么 Producter 是我唯一的选择。 ',
+      "class": "short"
     }, {
       name: 'Ray',
       bio: 'Artist at Catch Inc',
-      avatar: './img/ray.jpg',
-      say: 'Thanks to @kevinzhow I can Finally bring my idea into real! '
+      avatar: 'http://static-catch.qiniudn.com/ray.jpg',
+      say: 'Thanks to @kevinzhow I can Finally bring my idea into real! ',
+      "class": "short"
+    }, {
+      name: '王伟兴',
+      bio: '爱范儿 创始人',
+      avatar: 'http://static-catch.qiniudn.com/wilson.jpg',
+      say: '热爱，方得始终。这是一本让你把热爱变为现实的最佳指南。 ',
+      "class": "normal"
     }
   ];
 
@@ -96,6 +112,7 @@
       scale: 0.8,
       opacity: 0.2
     }, 200, 'ease-in', function() {
+      $('.quotes .bubble .say').removeClass("normal long");
       $('.quotes .bubble .avatar').attr('src', user.avatar);
       $('.quotes .bubble .say').html('"' + user.say + '"');
       $('.quotes .bubble .name').html(user.name);
@@ -103,6 +120,7 @@
         "class": 'bio',
         text: user.bio
       }));
+      $('.quotes .bubble .say').addClass(user["class"]);
       return $('.quotes .bubble').animate({
         scale: 1,
         opacity: 1
