@@ -20,23 +20,17 @@
 
   users = [
     {
+      name: '池建强',
+      bio: '「MacTalk 出品人」',
+      avatar: 'http://static-catch.qiniudn.com/chijianqiang.jpg',
+      say: '人们每天起床，做着同样的事情，他们告诉自己，有一天要为世界做一款产品，但他们从不付诸行动。这是一本可以让你行动起来的技术、设计和产品之书。如果用一句话评价书中的产品「小记」，我想是：绝世而独立。',
+      "class": "long"
+    }, {
       name: '唐巧',
       bio: '《iOS 开发进阶》作者',
       avatar: 'http://static-catch.qiniudn.com/tangqiao.jpg',
       say: '这是一本跨界的书，融合了设计、编程，以及市场营销的知识。作为一个只会编程的码农，本书将我带进了设计和市场营销的世界，有一种误入桃花源，发现新大陆的感觉。',
       "class": "long"
-    }, {
-      name: '池建强',
-      bio: '「池建强 MacTalk 出品人」',
-      avatar: 'http://static-catch.qiniudn.com/chijianqiang.jpg',
-      say: '人们每天起床，做着同样的事情，他们告诉自己，有一天要为世界做一款产品，但他们从不付诸行动。这是一本可以让你行动起来的技术、设计和产品之书。如果用一句话评价书中的产品「小记」，我想是：绝世而独立。',
-      "class": "long"
-    }, {
-      name: 'Ping',
-      bio: 'Founder of Color Code',
-      avatar: 'http://static-catch.qiniudn.com/mantia.jpg',
-      say: 'This book is fucking awesome!',
-      "class": "short"
     }, {
       name: 'Onevcat',
       bio: '《Swifter》作者',
@@ -48,6 +42,12 @@
       bio: 'Artist at Catch Inc',
       avatar: 'http://static-catch.qiniudn.com/ray.jpg',
       say: 'Thanks to @kevinzhow I can Finally bring my idea into real! ',
+      "class": "short"
+    }, {
+      name: 'Ping',
+      bio: 'Founder of Color Code',
+      avatar: 'http://static-catch.qiniudn.com/mantia.jpg',
+      say: 'This book is fucking awesome!',
       "class": "short"
     }, {
       name: '王伟兴',
