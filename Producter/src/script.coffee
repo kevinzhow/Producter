@@ -72,14 +72,21 @@ users = [
         name: 'Ray',
         bio: 'Artist at Catch Inc',
         avatar: 'http://static-catch.qiniudn.com/ray.jpg',
-        say: 'Thanks to @kevinzhow I can Finally bring my idea into real! ',
+        say: 'All your ideas are belong to real.',
         class: "short"
     },
+    # {
+    #     name: '罗聪翼',
+    #     bio: '《Blender权威指南》作者',
+    #     avatar: 'http://static-catch.qiniudn.com/ray.jpg',
+    #     say: 'Thanks to @kevinzhow I can Finally bring my idea into real! ',
+    #     class: "short"
+    # },
     {
         name: 'Ping',
         bio: 'Founder of Color Code',
-        avatar: 'http://static-catch.qiniudn.com/mantia.jpg',
-        say: 'This book is fucking awesome!',
+        avatar: 'http://static-catch.qiniudn.com/ping.jpg',
+        say: '在我理解设计师不仅是一个造梦者，更需要是一个创造者，从设计到开发，再到营销， Kevin 正诠释了这一切！',
         class: "short"
     },
     {
@@ -176,3 +183,10 @@ $('.ctrl .right').click ->
         quote(quoteIndex += 1)
     else
         quote(quoteIndex = 0)
+
+
+$(document).ready ->
+  explorer = window.navigator.userAgent
+  weChatIndex = explorer.indexOf("MicroMessenger")
+  if weChatIndex != -1
+    $('.order a').attr('href', "http://shop2842401.koudaitong.com/v2/showcase/goods?alias=1ifh36uzz")

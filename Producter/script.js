@@ -41,13 +41,13 @@
       name: 'Ray',
       bio: 'Artist at Catch Inc',
       avatar: 'http://static-catch.qiniudn.com/ray.jpg',
-      say: 'Thanks to @kevinzhow I can Finally bring my idea into real! ',
+      say: 'All your ideas are belong to real.',
       "class": "short"
     }, {
       name: 'Ping',
       bio: 'Founder of Color Code',
-      avatar: 'http://static-catch.qiniudn.com/mantia.jpg',
-      say: 'This book is fucking awesome!',
+      avatar: 'http://static-catch.qiniudn.com/ping.jpg',
+      say: '在我理解设计师不仅是一个造梦者，更需要是一个创造者，从设计到开发，再到营销， Kevin 正诠释了这一切！',
       "class": "short"
     }, {
       name: '王伟兴',
@@ -145,6 +145,15 @@
       return quote(quoteIndex += 1);
     } else {
       return quote(quoteIndex = 0);
+    }
+  });
+
+  $(document).ready(function() {
+    var explorer, weChatIndex;
+    explorer = window.navigator.userAgent;
+    weChatIndex = explorer.indexOf("MicroMessenger");
+    if (weChatIndex !== -1) {
+      return $('.order a').attr('href', "http://shop2842401.koudaitong.com/v2/showcase/goods?alias=1ifh36uzz");
     }
   });
 
