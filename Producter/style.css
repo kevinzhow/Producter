@@ -134,10 +134,11 @@ body > div {
           margin-right: 10px; }
 
 .chapters {
+  position: relative;
   width: 100%;
   padding: 50px; }
   .chapters .chapter {
-    width: auto;
+    width: 1024px;
     height: 300px;
     margin: 50px auto;
     position: relative;
@@ -282,7 +283,9 @@ body > div {
       float: left; }
     .quotes .ctrl .right {
       float: right;
-      -webkit-transform: rotate(180deg); }
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg); }
 
 @media screen and (max-width: 1000px) {
   .cover {
@@ -310,6 +313,7 @@ body > div {
       text-align: left; }
 
   .chapters .chapter {
+    width: auto;
     height: 800px;
     padding-left: 0;
     padding-left: 10%; }
