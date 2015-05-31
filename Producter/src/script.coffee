@@ -149,42 +149,6 @@ for c in book
 
 
 
-quote = (index) ->
-    user = users[index]
-    $('.quotes .bubble').animate
-        scale: 0.8
-        opacity: 0.2
-        200
-        'ease-in'
-        ->
-            $('.quotes .bubble .say').removeClass("normal long")
-            $('.quotes .bubble .avatar').attr('src', user.avatar)
-            $('.quotes .bubble .say').html('"' + user.say + '"')
-            $('.quotes .bubble .name').html(user.name)
-            $('.quotes .bubble .name').append $('<span>', {class: 'bio', text: user.bio})
-            $('.quotes .bubble .say').addClass(user.class)
-
-            $('.quotes .bubble').animate
-                scale: 1
-                opacity: 1
-
-quote(0)
-quoteIndex = 0
-
-
-$('.ctrl .left').click ->
-    if quoteIndex > 0
-        quote(quoteIndex -= 1)
-    else
-        quote(quoteIndex = users.length - 1)
-
-$('.ctrl .right').click ->
-    if quoteIndex < users.length - 1
-        quote(quoteIndex += 1)
-    else
-        quote(quoteIndex = 0)
-
-
 $(document).ready ->
   explorer = window.navigator.userAgent
   weChatIndex = explorer.indexOf("MicroMessenger")

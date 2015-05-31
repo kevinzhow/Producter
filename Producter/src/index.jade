@@ -1,5 +1,6 @@
 //- By Ray 2015-05-25
 
+- var cdn = 'http://static-catch.qiniudn.com'
 
 - var button_name = '购买'
 - var button_link = 'https://selfstore.io/products/367'
@@ -12,16 +13,8 @@ html
     meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=0.5, minimum-scale=0.5, maximum-scale=0.5")
     link(href='style.css', type='text/css', rel='stylesheet')
   body
-    .hide
-      img(src="http://static-catch.qiniudn.com/onevcat.jpg")
-      img(src="http://static-catch.qiniudn.com/ray.jpg")
-      img(src="http://static-catch.qiniudn.com/tangqiao.jpg")
-      img(src="http://static-catch.qiniudn.com/mantia.jpg")
-      img(src="http://static-catch.qiniudn.com/tangqiao.jpg")
-      img(src="http://static-catch.qiniudn.com/wilson.jpg")
-      img(src="http://static-catch.qiniudn.com/ping.jpg")
     .cover
-        img(src="http://static-catch.qiniudn.com/book.svg").book
+        img(src="#{cdn}/book.svg").book
     .order
         a(href="#{button_link}", target="_blank").button #{button_name}
         .slogan "Build product with love"
@@ -39,25 +32,18 @@ html
         .macbook
             .screen
                 .images
-                    img(src="http://static-catch.qiniudn.com/screen_1.jpg")
-                    img(src="http://static-catch.qiniudn.com/screen_2.jpg")
-                    img(src="http://static-catch.qiniudn.com/screen_3.jpg")
+                    img(src="#{cdn}/screen_1.jpg")
+                    img(src="#{cdn}/screen_2.jpg")
+                    img(src="#{cdn}/screen_3.jpg")
     .chapters
         //- Contents appending here by script.
 
     .quotes
-        .bubble
-            img.avatar
-            .say
-            p.name
 
-        .ctrl
-            .left
-            .right
     .order
         a(href="#{button_link}", target="_blank").button #{button_name}
         .slogan "Build product with love"
         .footer Producter by @kevinzhow ©2015 Catch Inc.
 
-    script(type="application/javascript", src="http://static-catch.qiniudn.com/zepto.min.js")
+    script(type="application/javascript", src="#{cdn}/zepto.min.js")
     script(type="application/javascript", src="script.js")

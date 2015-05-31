@@ -51,7 +51,7 @@ body > div {
       background-color: black;
       color: white; }
   .order .slogan {
-    font-family: "Times New Roman",Georgia,Serif;
+    font-family: "Times New Roman", Georgia, Serif;
     font-style: italic;
     font-size: 24px;
     margin: 50px; }
@@ -186,104 +186,6 @@ body > div {
         height: 40px;
         line-height: 40px;
         text-indent: 15px; }
-
-.quotes {
-  width: 100%;
-  height: 500px;
-  text-align: center;
-  background-color: #F2F2F2;
-  background-image: -webkit-linear-gradient(270deg, #FAFAFA 0%, #EDEDED 33%, #FCFCFC 67%, #FAFAFA 100%);
-  background-image: linear-gradient(-180deg, #FAFAFA 0%, #EDEDED 33%, #FCFCFC 67%, #FAFAFA 100%);
-  padding: 50px;
-  overflow-y: hidden; }
-  .quotes::-moz-selection {
-    background-color: transparent; }
-  .quotes::selection {
-    background-color: transparent; }
-  .quotes .bubble {
-    width: 800px;
-    height: 400px;
-    margin: 0 auto;
-    background-image: url(http://static-catch.qiniudn.com/bubble.svg);
-    background-repeat: no-repeat;
-    background-size: 800px 400px;
-    background-position: center center;
-    text-align: left;
-    position: relative;
-    -webkit-transition: all 0.3s ease-out;
-            transition: all 0.3s ease-out; }
-    .quotes .bubble:after {
-      position: absolute;
-      left: 116px;
-      top: 140px;
-      width: 550px;
-      height: 10px;
-      -webkit-border-radius: 50%;
-              border-radius: 50%;
-      display: block;
-      content: '';
-      margin: 50px auto 0;
-      -webkit-box-shadow: 0 180px 30px rgba(0, 0, 0, 0.1);
-              box-shadow: 0 180px 30px rgba(0, 0, 0, 0.1); }
-    .quotes .bubble .avatar {
-      width: 100px;
-      height: 100px;
-      -webkit-border-radius: 50%;
-              border-radius: 50%;
-      position: absolute;
-      top: 150px;
-      left: 116px;
-      background-color: white; }
-    .quotes .bubble .say {
-      position: absolute;
-      padding: 20px;
-      top: 150px;
-      left: 255px;
-      width: 420px;
-      height: 100px;
-      display: block;
-      white-space: normal;
-      text-align: left;
-      font-style: italic;
-      font-size: 16px; }
-    .quotes .bubble .short {
-      font-size: 18px; }
-    .quotes .bubble .long {
-      font-size: 12px; }
-    .quotes .bubble .name {
-      position: absolute;
-      top: 270px;
-      right: 150px;
-      font-weight: bold; }
-      .quotes .bubble .name:before {
-        content: '- ';
-        font-weight: lighter; }
-      .quotes .bubble .name .bio {
-        font-size: 14px;
-        font-weight: lighter;
-        padding-left: 10px; }
-  .quotes .ctrl {
-    width: 924px;
-    height: 100%;
-    margin: 0 auto;
-    top: -400px;
-    position: relative; }
-    .quotes .ctrl > div {
-      background-image: url(http://static-catch.qiniudn.com/arrow.svg);
-      background-repeat: no-repeat;
-      background-size: 30px 100px;
-      background-position: 0 center;
-      width: 100px;
-      height: 200px;
-      margin-top: 100px;
-      cursor: pointer; }
-    .quotes .ctrl .left {
-      float: left; }
-    .quotes .ctrl .right {
-      float: right;
-      -webkit-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-          transform: rotate(180deg); }
 
 @media screen and (max-width: 1000px) {
   .cover {
