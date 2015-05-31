@@ -39,13 +39,13 @@
       "class": "short"
     }, {
       name: 'Ray',
-      bio: 'Artist at Catch Inc',
+      bio: 'Desinger at Catch Inc',
       avatar: 'http://static-catch.qiniudn.com/ray.jpg',
       say: 'All your ideas are belong to real.',
       "class": "short"
     }, {
       name: 'Ping',
-      bio: 'Founder of Color Code',
+      bio: 'Producter of Weekr',
       avatar: 'http://static-catch.qiniudn.com/ping.jpg',
       say: '在我理解设计师不仅是一个造梦者，更需要是一个创造者，从设计到开发，再到营销， Kevin 正诠释了这一切！',
       "class": "short"
@@ -145,15 +145,6 @@
       return quote(quoteIndex += 1);
     } else {
       return quote(quoteIndex = 0);
-    }
-  });
-
-  $(document).ready(function() {
-    var explorer, weChatIndex;
-    explorer = window.navigator.userAgent;
-    weChatIndex = explorer.indexOf("MicroMessenger");
-    if (weChatIndex !== -1) {
-      return $('.order a').attr('href', "http://shop2842401.koudaitong.com/v2/showcase/goods?alias=1ifh36uzz");
     }
   });
 
