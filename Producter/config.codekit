@@ -2,138 +2,148 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19033",
 "files": {
-	"\/Producter\/favicon.png": {
+	"\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 565,
-		"inputAbbreviatedPath": "\/Producter\/favicon.png",
-		"outputAbbreviatedPath": "\/Producter\/favicon.png",
+		"inputAbbreviatedPath": "\/favicon.png",
+		"outputAbbreviatedPath": "\/favicon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Producter\/img\/jony.jpg": {
+	"\/img\/chijianqiang.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35144,
+		"inputAbbreviatedPath": "\/img\/chijianqiang.jpg",
+		"outputAbbreviatedPath": "\/img\/chijianqiang.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/jony.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 30922,
-		"inputAbbreviatedPath": "\/Producter\/img\/jony.jpg",
-		"outputAbbreviatedPath": "\/Producter\/img\/jony.jpg",
+		"inputAbbreviatedPath": "\/img\/jony.jpg",
+		"outputAbbreviatedPath": "\/img\/jony.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Producter\/img\/mantia.jpg": {
+	"\/img\/mantia.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 5214,
-		"inputAbbreviatedPath": "\/Producter\/img\/mantia.jpg",
-		"outputAbbreviatedPath": "\/Producter\/img\/mantia.jpg",
+		"inputAbbreviatedPath": "\/img\/mantia.jpg",
+		"outputAbbreviatedPath": "\/img\/mantia.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Producter\/img\/onevcat.jpg": {
+	"\/img\/onevcat.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 99009,
-		"inputAbbreviatedPath": "\/Producter\/img\/onevcat.jpg",
-		"outputAbbreviatedPath": "\/Producter\/img\/onevcat.jpg",
+		"inputAbbreviatedPath": "\/img\/onevcat.jpg",
+		"outputAbbreviatedPath": "\/img\/onevcat.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Producter\/img\/ray.jpg": {
+	"\/img\/ray.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 56302,
-		"inputAbbreviatedPath": "\/Producter\/img\/ray.jpg",
-		"outputAbbreviatedPath": "\/Producter\/img\/ray.jpg",
+		"inputAbbreviatedPath": "\/img\/ray.jpg",
+		"outputAbbreviatedPath": "\/img\/ray.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Producter\/img\/screen_1.jpg": {
+	"\/img\/screen_1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 201611,
-		"inputAbbreviatedPath": "\/Producter\/img\/screen_1.jpg",
-		"outputAbbreviatedPath": "\/Producter\/img\/screen_1.jpg",
+		"inputAbbreviatedPath": "\/img\/screen_1.jpg",
+		"outputAbbreviatedPath": "\/img\/screen_1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Producter\/img\/screen_2.jpg": {
+	"\/img\/screen_2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 263795,
-		"inputAbbreviatedPath": "\/Producter\/img\/screen_2.jpg",
-		"outputAbbreviatedPath": "\/Producter\/img\/screen_2.jpg",
+		"inputAbbreviatedPath": "\/img\/screen_2.jpg",
+		"outputAbbreviatedPath": "\/img\/screen_2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Producter\/img\/screen_3.jpg": {
+	"\/img\/screen_3.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 315525,
-		"inputAbbreviatedPath": "\/Producter\/img\/screen_3.jpg",
-		"outputAbbreviatedPath": "\/Producter\/img\/screen_3.jpg",
+		"inputAbbreviatedPath": "\/img\/screen_3.jpg",
+		"outputAbbreviatedPath": "\/img\/screen_3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Producter\/img\/tangqiao.jpg": {
+	"\/img\/tangqiao.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 84343,
-		"inputAbbreviatedPath": "\/Producter\/img\/tangqiao.jpg",
-		"outputAbbreviatedPath": "\/Producter\/img\/tangqiao.jpg",
+		"inputAbbreviatedPath": "\/img\/tangqiao.jpg",
+		"outputAbbreviatedPath": "\/img\/tangqiao.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Producter\/img\/x.png": {
+	"\/img\/wilson.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55558,
+		"inputAbbreviatedPath": "\/img\/wilson.jpg",
+		"outputAbbreviatedPath": "\/img\/wilson.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/x.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 696,
-		"inputAbbreviatedPath": "\/Producter\/img\/x.png",
-		"outputAbbreviatedPath": "\/Producter\/img\/x.png",
+		"inputAbbreviatedPath": "\/img\/x.png",
+		"outputAbbreviatedPath": "\/img\/x.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-<<<<<<< HEAD
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
-=======
-	"\/Producter\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Producter\/index.html",
->>>>>>> 82a673d18d8bff29d069d6d6091109899d230e4c
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-<<<<<<< HEAD
 	"\/README.md": {
-=======
-	"\/Producter\/README.md": {
->>>>>>> 82a673d18d8bff29d069d6d6091109899d230e4c
 		"criticStyle": 0,
 		"enableFootnotes": 0,
 		"enableLabels": 1,
@@ -142,9 +152,9 @@
 		"fileType": 4096,
 		"ignore": 1,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/Producter\/README.md",
+		"inputAbbreviatedPath": "\/README.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/Producter\/README.html",
+		"outputAbbreviatedPath": "\/README.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -154,26 +164,15 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/Producter\/script.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Producter\/script.js",
-		"outputAbbreviatedPath": "\/Producter\/min\/script-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Producter\/src\/_responsive.scss": {
+	"\/src\/_responsive.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Producter\/src\/_responsive.scss",
-		"outputAbbreviatedPath": "\/Producter\/css\/_responsive.css",
+		"inputAbbreviatedPath": "\/src\/_responsive.scss",
+		"outputAbbreviatedPath": "\/css\/_responsive.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -181,39 +180,39 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Producter\/src\/index.jade": {
+	"\/src\/index.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Producter\/src\/index.jade",
-		"outputAbbreviatedPath": "\/Producter\/index.html",
+		"inputAbbreviatedPath": "\/src\/index.jade",
+		"outputAbbreviatedPath": "\/index.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
-	"\/Producter\/src\/script.coffee": {
+	"\/src\/script.coffee": {
 		"createSourceMap": 0,
 		"fileType": 32,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Producter\/src\/script.coffee",
+		"inputAbbreviatedPath": "\/src\/script.coffee",
 		"minifyOutput": 0,
-		"outputAbbreviatedPath": "\/Producter\/script.js",
+		"outputAbbreviatedPath": "\/script.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Producter\/src\/style.scss": {
+	"\/src\/style.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Producter\/src\/style.scss",
-		"outputAbbreviatedPath": "\/Producter\/style.css",
+		"inputAbbreviatedPath": "\/src\/style.scss",
+		"outputAbbreviatedPath": "\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
@@ -221,21 +220,21 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Producter\/style.css": {
+	"\/style.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Producter\/style.css",
+		"inputAbbreviatedPath": "\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Producter\/zepto.min.js": {
+	"\/zepto.min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/Producter\/zepto.min.js",
-		"outputAbbreviatedPath": "\/Producter\/min\/zepto.min-min.js",
+		"inputAbbreviatedPath": "\/zepto.min.js",
+		"outputAbbreviatedPath": "\/min\/zepto.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

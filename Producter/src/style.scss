@@ -16,6 +16,9 @@ body{
     }
 }
 
+.hide {
+  display: none;
+}
 
 .cover{
     width: 100%;
@@ -86,7 +89,7 @@ body{
     .macbook{
         width: 600px;
         height: 370px;
-        background-image: url(./img/macbook.svg);
+        background-image: url(http://static-catch.qiniudn.com/macbook.svg);
         background-size: 600px;
         background-repeat: no-repeat;
         margin: 150px auto 0;
@@ -97,7 +100,7 @@ body{
             height: 266px;
             overflow: hidden;
             margin: 53px auto 0;
-            
+
 
             .images{
                 white-space: nowrap;
@@ -106,13 +109,13 @@ body{
 
                 @keyframes screen {
                     0% { transform: translateX(0px); }
-                    
+
                     25% { transform: translateX(0px); }
                     35% { transform: translateX(-425px - 10px); }
-                    
+
                     60% { transform: translateX(-425px - 10px); }
                     70% { transform: translateX(-425px * 2 - 20px); }
-                    
+
                     90% { transform: translateX(-425px * 2 - 20px); }
                     100% { transform: translateX(0px); }
                 }
@@ -227,14 +230,14 @@ body{
         width: 800px;
         height: 400px;
         margin: 0 auto;
-        background-image: url(./img/bubble.svg);
+        background-image: url(http://static-catch.qiniudn.com/bubble.svg);
         background-repeat: no-repeat;
         background-size: 800px 400px;
         background-position: center center;
         text-align: left;
         position: relative;
 
-        transition: all 0.1s ease-out;
+        transition: all 0.3s ease-out;
 
         &:after{
             position: absolute;
@@ -256,10 +259,11 @@ body{
             position: absolute;
             top: 150px;
             left: 116px;
+            background-color: white;
         }
         .say{
             position: absolute;
-            padding: 25px;
+            padding: 20px;
             top: 150px;
             left: 255px;
             width: 420px;
@@ -269,7 +273,15 @@ body{
             text-align: left;
             font-family:"Times New Roman",Georgia,Serif;
             font-style: italic;
-            font-size: 24px;
+            font-size: 16px;
+        }
+
+        .short {
+          font-size: 18px;
+        }
+
+        .long {
+          font-size: 12px;
         }
 
         .name{
@@ -300,7 +312,7 @@ body{
         position: relative;
 
         &>div{
-            background-image: url(./img/arrow.svg);
+            background-image: url(http://static-catch.qiniudn.com/arrow.svg);
             background-repeat: no-repeat;
             background-size: 30px 100px;
             background-position: 0 center;
@@ -314,7 +326,7 @@ body{
         }
         .right{
             float: right;
-            transform: rotate(180deg);
+            -webkit-transform: rotate(180deg);
         }
     }
 }
@@ -322,11 +334,3 @@ body{
 
 
 @import 'responsive';
-
-
-
-
-
-
-
-

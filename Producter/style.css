@@ -14,6 +14,9 @@ html, body {
 body > div {
   overflow: auto; }
 
+.hide {
+  display: none; }
+
 .cover {
   width: 100%;
   height: 640px;
@@ -65,7 +68,7 @@ body > div {
   .apps .macbook {
     width: 600px;
     height: 370px;
-    background-image: url(./img/macbook.svg);
+    background-image: url(http://static-catch.qiniudn.com/macbook.svg);
     background-size: 600px;
     background-repeat: no-repeat;
     margin: 150px auto 0;
@@ -201,14 +204,14 @@ body > div {
     width: 800px;
     height: 400px;
     margin: 0 auto;
-    background-image: url(./img/bubble.svg);
+    background-image: url(http://static-catch.qiniudn.com/bubble.svg);
     background-repeat: no-repeat;
     background-size: 800px 400px;
     background-position: center center;
     text-align: left;
     position: relative;
-    -webkit-transition: all 0.1s ease-out;
-            transition: all 0.1s ease-out; }
+    -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out; }
     .quotes .bubble:after {
       position: absolute;
       left: 116px;
@@ -229,10 +232,11 @@ body > div {
               border-radius: 50%;
       position: absolute;
       top: 150px;
-      left: 116px; }
+      left: 116px;
+      background-color: white; }
     .quotes .bubble .say {
       position: absolute;
-      padding: 25px;
+      padding: 20px;
       top: 150px;
       left: 255px;
       width: 420px;
@@ -242,7 +246,11 @@ body > div {
       text-align: left;
       font-family: "Times New Roman",Georgia,Serif;
       font-style: italic;
-      font-size: 24px; }
+      font-size: 16px; }
+    .quotes .bubble .short {
+      font-size: 18px; }
+    .quotes .bubble .long {
+      font-size: 12px; }
     .quotes .bubble .name {
       position: absolute;
       top: 270px;
@@ -262,7 +270,7 @@ body > div {
     top: -400px;
     position: relative; }
     .quotes .ctrl > div {
-      background-image: url(./img/arrow.svg);
+      background-image: url(http://static-catch.qiniudn.com/arrow.svg);
       background-repeat: no-repeat;
       background-size: 30px 100px;
       background-position: 0 center;
@@ -274,9 +282,7 @@ body > div {
       float: left; }
     .quotes .ctrl .right {
       float: right;
-      -webkit-transform: rotate(180deg);
-          -ms-transform: rotate(180deg);
-              transform: rotate(180deg); }
+      -webkit-transform: rotate(180deg); }
 
 @media screen and (max-width: 1000px) {
   .cover {
@@ -367,8 +373,9 @@ body > div {
       position: static;
       margin: 0 auto;
       padding: 10px;
-      font-size: 30px;
-      margin-bottom: 50px; }
+      height: auto;
+      font-size: 22px;
+      margin-bottom: 20px; }
     .quotes .bubble p.name {
       position: static;
       text-align: right;
