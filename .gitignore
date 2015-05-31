@@ -1,8 +1,6 @@
 38cd3a4a5b48f2cb14a409d7ab8c8889cc2090e0
 f109d418805ae7bba66256de0f09928dd5cc8b56
 config.codekit
-<<<<<<< HEAD
-
 
 # Sass
 .sass-cache
@@ -30,6 +28,4 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-=======
 Producter/config.codekit
->>>>>>> ignore
