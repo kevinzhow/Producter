@@ -164,6 +164,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/script.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/script.js",
+		"outputAbbreviatedPath": "\/min\/script-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/src\/_responsive.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -191,17 +202,15 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
-	"\/src\/script.coffee": {
-		"createSourceMap": 0,
-		"fileType": 32,
-		"ignore": 0,
+	"\/src\/script.js": {
+		"fileType": 64,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/script.coffee",
-		"minifyOutput": 0,
-		"outputAbbreviatedPath": "\/script.js",
+		"inputAbbreviatedPath": "\/src\/script.js",
+		"outputAbbreviatedPath": "\/src\/min\/script-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/src\/style.scss": {
