@@ -9,7 +9,7 @@
 html, body {
   width: 100%;
   color: black;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; }
 
 body > div {
   overflow: auto; }
@@ -151,8 +151,7 @@ body > div {
       position: absolute;
       top: 140px;
       font-size: 18px;
-      margin-left: 5px;
-      font-family: 'Lantinghei SC', 'Helvetica Neue', Helvetica, Arial; }
+      margin-left: 5px; }
     .chapters .chapter ul.sections {
       position: absolute;
       right: 0;
@@ -245,7 +244,6 @@ body > div {
       display: block;
       white-space: normal;
       text-align: left;
-      font-family: "Times New Roman",Georgia,Serif;
       font-style: italic;
       font-size: 16px; }
     .quotes .bubble .short {

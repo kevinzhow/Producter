@@ -7,7 +7,7 @@
 html, body {
     width: 100%;
     color: black;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 
 body{
@@ -159,7 +159,6 @@ body{
             top: 140px;
             font-size: 18px;
             margin-left: 5px;
-            font-family: 'Lantinghei SC', 'Helvetica Neue', Helvetica, Arial;
         }
 
         ul.sections{
@@ -271,7 +270,6 @@ body{
             display: block;
             white-space: normal;
             text-align: left;
-            font-family:"Times New Roman",Georgia,Serif;
             font-style: italic;
             font-size: 16px;
         }
