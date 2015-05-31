@@ -84,7 +84,7 @@ users = [
     # },
     {
         name: 'Ping',
-        bio: 'Founder of Color Code',
+        bio: 'Producter of Weekr',
         avatar: 'http://static-catch.qiniudn.com/ping.jpg',
         say: '在我理解设计师不仅是一个造梦者，更需要是一个创造者，从设计到开发，再到营销， Kevin 正诠释了这一切！',
         class: "short"
