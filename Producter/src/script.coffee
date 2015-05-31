@@ -70,7 +70,7 @@ users = [
     },
     {
         name: 'Ray',
-        bio: 'Artist at Catch Inc',
+        bio: 'Designer at Catch Inc',
         avatar: 'http://static-catch.qiniudn.com/ray.jpg',
         say: 'All your ideas are belong to real.',
         class: "short"
