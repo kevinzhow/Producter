@@ -129,12 +129,8 @@ for c in book
 
     if c.chapters.length > 5
 
-        fullList = $('<ul>', {class: 'drawer'}).mouseleave ->
-                $(this).fadeOut(200)
-            .click ->
-                $(this).fadeOut(200)
-
-
+        fullList = $('<ul>', {class: 'drawer'}).on 'mouseleave click', () ->
+            $(this).fadeOut(200)
 
         for a in c.chapters
             fullList.append $('<li>', {text: a})
@@ -165,7 +161,7 @@ for u in users
 
 $('.quotes .container').append quotes
 
-$('.container').slick
+$('.container').slick {
     centerMode: true
     slidesToShow: 1
     autoplay: true
@@ -174,31 +170,12 @@ $('.container').slick
     focusOnSelect: true
     prevArrow: '<button class="slick-prev"><img src="http://static-catch.qiniudn.com/arrow.svg"/></button>'
     nextArrow: '<button class="slick-next"><img src="http://static-catch.qiniudn.com/arrow.svg"/></button>'
+}
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-$(document).ready ->
-  explorer = window.navigator.userAgent
-  weChatIndex = explorer.indexOf("MicroMessenger")
-  if weChatIndex != -1
+if window.navigator.userAgent.indexOf("MicroMessenger") != -1
     $('.order a').attr('href', "http://shop2842401.koudaitong.com/v2/showcase/goods?alias=1ifh36uzz")

@@ -84,9 +84,7 @@
     if (c.chapters.length > 5) {
       fullList = $('<ul>', {
         "class": 'drawer'
-      }).mouseleave(function() {
-        return $(this).fadeOut(200);
-      }).click(function() {
+      }).on('mouseleave click', function() {
         return $(this).fadeOut(200);
       });
       ref = c.chapters;
@@ -150,13 +148,8 @@
     nextArrow: '<button class="slick-next"><img src="http://static-catch.qiniudn.com/arrow.svg"/></button>'
   });
 
-  $(document).ready(function() {
-    var explorer, weChatIndex;
-    explorer = window.navigator.userAgent;
-    weChatIndex = explorer.indexOf("MicroMessenger");
-    if (weChatIndex !== -1) {
-      return $('.order a').attr('href', "http://shop2842401.koudaitong.com/v2/showcase/goods?alias=1ifh36uzz");
-    }
-  });
+  if (window.navigator.userAgent.indexOf("MicroMessenger") !== -1) {
+    $('.order a').attr('href', "http://shop2842401.koudaitong.com/v2/showcase/goods?alias=1ifh36uzz");
+  }
 
 }).call(this);

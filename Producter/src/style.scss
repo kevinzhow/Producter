@@ -71,10 +71,6 @@ body{
         font-size: 14px;
         // line-height: 28px;
     }
-
-    .footer{
-        margin-top: 240px;
-    }
 }
 
 
@@ -336,7 +332,12 @@ body{
 
 
 
-
+.footer{
+    i{
+        margin-top: 250px;
+        display: block;
+    }
+}
 
 
 
