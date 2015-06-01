@@ -28,17 +28,24 @@ html
             从来没有一本书，去讲如何完整的完成这件事情。
              
             我觉得应该有一本。
-    .apps
-        .macbook
-            .screen
-                .images
-                    img(src="#{cdn}/screen_1.jpg")
-                    img(src="#{cdn}/screen_2.jpg")
-                    img(src="#{cdn}/screen_3.jpg")
+
+    .apps: .macbook: .screen: .images
+        - var i = 1
+        while i < 4
+            img(src="#{cdn}/screen_#{i++}.jpg")
+
     .chapters
         //- Contents appending here by script.
 
-    .quotes
+    .quotes: .container
+            //- .user
+            //-     .card
+            //-         .avatar
+            //-         .say
+            //-     .info
+            //-         .name
+            //-         .bio
+
 
     .order
         a(href="#{button_link}", target="_blank").button #{button_name}
@@ -46,4 +53,5 @@ html
         .footer Producter by @kevinzhow ©2015 Catch Inc.
 
     script(type="application/javascript", src="#{cdn}/zepto.min.js")
+    script(type="application/javascript", src="swipeview.js")
     script(type="application/javascript", src="script.js")

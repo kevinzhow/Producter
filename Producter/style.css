@@ -187,6 +187,17 @@ body > div {
         line-height: 40px;
         text-indent: 15px; }
 
+.quotes {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  padding: 50px;
+  background-color: #f1f1f1; }
+  .quotes .container {
+    background-color: silver;
+    width: 100%;
+    height: 100%; }
+
 @media screen and (max-width: 1000px) {
   .cover {
     height: 800px; }
@@ -263,35 +274,6 @@ body > div {
         width: 100%;
         height: 70px;
         line-height: 70px; }
-
-  .quotes .bubble {
-    width: 100%;
-    background: none;
-    text-align: center; }
-    .quotes .bubble:after {
-      display: none; }
-    .quotes .bubble img.avatar {
-      position: static;
-      margin: 50px; }
-    .quotes .bubble .say {
-      position: static;
-      margin: 0 auto;
-      padding: 10px;
-      height: auto;
-      font-size: 22px;
-      margin-bottom: 20px; }
-    .quotes .bubble p.name {
-      position: static;
-      text-align: right;
-      width: 420px;
-      margin: 0 auto;
-      font-size: 20px; }
-      .quotes .bubble p.name:before {
-        content: "- "; }
-      .quotes .bubble p.name span.bio {
-        font-size: 20px; }
-  .quotes .ctrl {
-    width: 100%; }
 
   .order .footer {
     margin-top: 650px;

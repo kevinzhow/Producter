@@ -1,45 +1,45 @@
 book = [
     {
-        title: 'Design',
-        desc: '学习最实用的设计法则，\n在 Sketch 和 Framer 中进行原型设计。',
-        chapters:
+        "title": "Design",
+        "desc": "学习最实用的设计法则，\n在 Sketch 和 Framer 中进行原型设计。",
+        "chapters":
             [
-                '从感觉开始',
-                '设计驱动开发',
-                '如何激发灵感',
-                '设计 iOS App',
-                '三个最常用的设计语言',
-                '交互设计'
+                "从感觉开始",
+                "设计驱动开发",
+                "如何激发灵感",
+                "设计 iOS App",
+                "三个最常用的设计语言",
+                "交互设计"
             ]
     },
     {
-        title: 'Code',
-        desc: '学习 Swift 和 iOS，\n掌握最实用的开发技巧与工具',
-        chapters:
+        "title": "Code",
+        "desc": "学习 Swift 和 iOS，\n掌握最实用的开发技巧与工具",
+        "chapters":
             [
-                'Basic Swift Knowlege',
-                'iOS Animations',
-                'Facebook Pop',
-                'Motion Graphic',
-                'Git',
-                'UICollectionView',
-                'Custom Navgiation Transaction',
-                'Custom UILabel and UIButton',
-                'UIWebView',
-                'Core Data',
-                'UICollectionView Layout',
-                'Cocoapods & Crashlystics'
+                "Basic Swift Knowlege",
+                "iOS Animations",
+                "Facebook Pop",
+                "Motion Graphic",
+                "Git",
+                "UICollectionView",
+                "Custom Navgiation Transaction",
+                "Custom UILabel and UIButton",
+                "UIWebView",
+                "Core Data",
+                "UICollectionView Layout",
+                "Cocoapods & Crashlystics"
             ]
     },
     {
-        title: 'Market',
-        desc: '掌握产品营销的方法，\n把产品推向市场',
-        chapters:
+        "title": "Market",
+        "desc": "掌握产品营销的方法，\n把产品推向市场",
+        "chapters":
             [
-                '本质',
-                '产品定位',
-                '营销的方法',
-                '文案'
+                "本质",
+                "产品定位",
+                "营销的方法",
+                "文案"
             ]
     }
 ]
@@ -48,54 +48,54 @@ book = [
 
 users = [
     {
-        name: '池建强',
-        bio: '「MacTalk 出品人」',
-        avatar: 'http://static-catch.qiniudn.com/chijianqiang.jpg',
-        say: '人们每天起床，做着同样的事情，他们告诉自己，有一天要为世界做一款产品，但他们从不付诸行动。这是一本可以让你行动起来的技术、设计和产品之书。如果用一句话评价书中的产品「小记」，我想是：绝世而独立。',
-        class: "long"
+        "name": "池建强",
+        "bio": "「MacTalk 出品人」",
+        "avatar": "http://static-catch.qiniudn.com/chijianqiang.jpg",
+        "say": "人们每天起床，做着同样的事情，他们告诉自己，有一天要为世界做一款产品，但他们从不付诸行动。这是一本可以让你行动起来的技术、设计和产品之书。如果用一句话评价书中的产品「小记」，我想是：绝世而独立。",
+        "class": "long"
     },
     {
-        name: '唐巧',
-        bio: '《iOS 开发进阶》作者',
-        avatar: 'http://static-catch.qiniudn.com/tangqiao.jpg',
-        say: '这是一本跨界的书，融合了设计、编程，以及市场营销的知识。作为一个只会编程的码农，本书将我带进了设计和市场营销的世界，有一种误入桃花源，发现新大陆的感觉。',
-        class: "long"
+        "name": "唐巧",
+        "bio": "《iOS 开发进阶》作者",
+        "avatar": "http://static-catch.qiniudn.com/tangqiao.jpg",
+        "say": "这是一本跨界的书，融合了设计、编程，以及市场营销的知识。作为一个只会编程的码农，本书将我带进了设计和市场营销的世界，有一种误入桃花源，发现新大陆的感觉。",
+        "class": "long"
     },
     {
-        name: 'Onevcat',
-        bio: '《Swifter》作者',
-        avatar: 'http://static-catch.qiniudn.com/onevcat.jpg',
-        say: '如果我只能通过一本书来帮自己走上设计道路的话，那么 Producter 是我唯一的选择。 ',
-        class: "short"
+        "name": "Onevcat",
+        "bio": "《Swifter》作者",
+        "avatar": "http://static-catch.qiniudn.com/onevcat.jpg",
+        "say": "如果我只能通过一本书来帮自己走上设计道路的话，那么 Producter 是我唯一的选择。 ",
+        "class": "short"
     },
     {
-        name: 'Ray',
-        bio: 'Designer at Catch Inc',
-        avatar: 'http://static-catch.qiniudn.com/ray.jpg',
-        say: 'All your ideas are belong to real!',
-        class: "short"
+        "name": "Ray",
+        "bio": "Designer at Catch Inc",
+        "avatar": "http://static-catch.qiniudn.com/ray.jpg",
+        "say": "All your ideas are belong to real!",
+        "class": "short"
     },
     # {
-    #     name: '罗聪翼',
-    #     bio: '《Blender权威指南》作者',
-    #     avatar: 'http://static-catch.qiniudn.com/ray.jpg',
-    #     say: 'Thanks to @kevinzhow I can Finally bring my idea into real! ',
-    #     class: "short"
+    #     "name": "罗聪翼",
+    #     "bio": "《Blender权威指南》作者",
+    #     "avatar": "http://static-catch.qiniudn.com/ray.jpg",
+    #     "say": "Thanks to @kevinzhow I can Finally bring my idea into real! ",
+    #     "class": "short"
     # },
     {
-        name: 'Ping',
-        bio: 'Founder of Color Code',
-        avatar: 'http://static-catch.qiniudn.com/ping.jpg',
-        say: '在我理解设计师不仅是一个造梦者，更需要是一个创造者，从设计到开发，再到营销， Kevin 正诠释了这一切！',
-        class: "short"
+        "name": "Ping",
+        "bio": "Founder of Color Code",
+        "avatar": "http://static-catch.qiniudn.com/ping.jpg",
+        "say": "在我理解设计师不仅是一个造梦者，更需要是一个创造者，从设计到开发，再到营销， Kevin 正诠释了这一切！",
+        "class": "short"
     },
     {
-        name: '王伟兴',
-        bio: '爱范儿 创始人',
-        avatar: 'http://static-catch.qiniudn.com/wilson.jpg',
-        say: '热爱，方得始终。这是一本让你把热爱变为现实的最佳指南。 ',
-        class: "normal"
-    },
+        "name": "王伟兴",
+        "bio": "爱范儿 创始人",
+        "avatar": "http://static-catch.qiniudn.com/wilson.jpg",
+        "say": "热爱，方得始终。这是一本让你把热爱变为现实的最佳指南。 ",
+        "class": "normal"
+    }
 ]
 
 
@@ -143,6 +143,67 @@ for c in book
 
         sections.append $('<span>', {text: 'Show All'}).click ->
             $(this).parent().parent().find('.drawer').fadeIn(200)
+
+
+
+
+quotes = new Array
+
+for u in users
+
+    avatar = $('<img>',  {class: 'avatar', src:  u.avatar})
+    say    = $('<p>',    {class: 'say',   text:  u.say})
+    name   = $('<p>',    {class: 'name',  text:  u.name})
+    bio    = $('<span>', {class: 'bio',   text:  u.bio})
+
+    card   = $('<div>',  {class: 'card'}).append avatar[0], say[0]
+    info   = $('<div>',  {class: 'info'}).append name[0], bio[0]
+
+    user   = $('<div>').append card[0], info[0]
+
+    quotes.push user[0]
+
+
+cards = new SwipeView '.quotes .container', numberOfPages: quotes.length
+
+# Init
+for i in [0...3] 
+    page = if i == 0 then quotes.length - 1 else i - 1
+    $('<span>', {class: 'user'}).html(quotes[page]).appendTo($(cards.masterPages[i]))
+
+cards.onFlip ->
+    for i in [0...3] 
+        upcoming = cards.masterPages[i].dataset.upcomingPageIndex
+        pageIndex = cards.masterPages[i].dataset.pageIndex
+        if upcoming != pageIndex
+            $(cards.masterPages[i]).find('.user').html($(quotes[upcoming]).html())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

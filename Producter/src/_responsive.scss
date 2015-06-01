@@ -118,52 +118,6 @@
         }
     }
 
-    .quotes{
-        .bubble{
-            width: 100%;
-            background: none;
-            text-align: center;
-
-            &:after {
-                display: none;
-            }
-
-            img.avatar{
-                position: static;
-                margin: 50px;
-            }
-
-            .say{
-                position: static;
-                margin: 0 auto;
-                padding: 10px;
-                height: auto;
-                font-size: 22px;
-                margin-bottom: 20px;
-            }
-
-            p.name{
-                position: static;
-                text-align: right;
-                width: 420px;
-                margin: 0 auto;
-                font-size: 20px;
-
-                &:before{
-                    content: '- '
-                }
-
-                span.bio{
-                    font-size: 20px;
-                }
-            }
-        }
-
-        .ctrl{
-            width: 100%;
-        }
-    }
-
 
     .order{
         .footer{
