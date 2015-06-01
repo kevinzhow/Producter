@@ -119,6 +119,25 @@
     }
 
 
+    .quotes{
+
+
+        .container{
+
+
+            button{
+                visibility: hidden;
+            }
+
+            button.slick-prev{
+                left: 0;
+            }
+            button.slick-next{
+                right: 0;
+            }
+        }
+    }
+
     .order{
         .footer{
             margin-top: 650px;
