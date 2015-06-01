@@ -202,6 +202,19 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0
 		},
+	"\/src\/script.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/script.coffee",
+		"minifyOutput": 0,
+		"outputAbbreviatedPath": "\/src\/script.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
 	"\/src\/script.js": {
 		"fileType": 64,
 		"ignore": 1,
