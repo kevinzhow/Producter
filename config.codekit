@@ -123,14 +123,16 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Producter\/index.html": {
-		"fileType": 8192,
+	"\/Producter\/script.js": {
+		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Producter\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/Producter\/script.js",
+		"outputAbbreviatedPath": "\/Producter\/min\/script-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
 		},
 	"\/Producter\/slick.min.js": {
 		"fileType": 64,
@@ -194,17 +196,6 @@
 		"inputAbbreviatedPath": "\/Producter\/src\/script.coffee",
 		"minifyOutput": 0,
 		"outputAbbreviatedPath": "\/Producter\/script.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Producter\/src\/script.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Producter\/src\/script.js",
-		"outputAbbreviatedPath": "\/Producter\/src\/min\/script-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
