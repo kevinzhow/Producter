@@ -123,6 +123,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/Producter\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Producter\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/Producter\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 0,
@@ -207,7 +216,18 @@
 		"minifyOutput": 0,
 		"outputAbbreviatedPath": "\/Producter\/script.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Producter\/src\/script.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Producter\/src\/script.js",
+		"outputAbbreviatedPath": "\/Producter\/src\/min\/script-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},

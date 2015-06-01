@@ -72,8 +72,8 @@ users = [
         "name": "Ray",
         "bio": "Designer at Catch Inc",
         "avatar": "img/ray.jpg",
-        "say": "All your ideas belongs to real!",
-        "style": "short"
+        "say": "每个设计师都应该要懂得如何实现，不仅仅是为了把自己天马行空的想法变为现实，还为了让自己更正确地做出设计上的决策，以及提升与开发者之间的默契。",
+        "style": "long"
     },
     # {
     #     "name": "罗聪翼",
