@@ -13,50 +13,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Producter\/img\/chijianqiang.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 35144,
-		"inputAbbreviatedPath": "\/Producter\/img\/chijianqiang.jpg",
-		"outputAbbreviatedPath": "\/Producter\/img\/chijianqiang.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/Producter\/img\/onevcat.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 99009,
-		"inputAbbreviatedPath": "\/Producter\/img\/onevcat.jpg",
-		"outputAbbreviatedPath": "\/Producter\/img\/onevcat.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/Producter\/img\/ping.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6152,
-		"inputAbbreviatedPath": "\/Producter\/img\/ping.jpg",
-		"outputAbbreviatedPath": "\/Producter\/img\/ping.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/Producter\/img\/ray.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7182,
-		"inputAbbreviatedPath": "\/Producter\/img\/ray.jpg",
-		"outputAbbreviatedPath": "\/Producter\/img\/ray.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/Producter\/img\/screen_1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -90,24 +46,68 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Producter\/img\/tangqiao.jpg": {
+	"\/Producter\/img\/user\/chijianqiang.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 58476,
-		"inputAbbreviatedPath": "\/Producter\/img\/tangqiao.jpg",
-		"outputAbbreviatedPath": "\/Producter\/img\/tangqiao.jpg",
+		"initialSize": 15223,
+		"inputAbbreviatedPath": "\/Producter\/img\/user\/chijianqiang.jpg",
+		"outputAbbreviatedPath": "\/Producter\/img\/user\/chijianqiang.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Producter\/img\/wilson.jpg": {
+	"\/Producter\/img\/user\/onevcat.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 55558,
-		"inputAbbreviatedPath": "\/Producter\/img\/wilson.jpg",
-		"outputAbbreviatedPath": "\/Producter\/img\/wilson.jpg",
+		"initialSize": 14483,
+		"inputAbbreviatedPath": "\/Producter\/img\/user\/onevcat.jpg",
+		"outputAbbreviatedPath": "\/Producter\/img\/user\/onevcat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Producter\/img\/user\/ping.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9802,
+		"inputAbbreviatedPath": "\/Producter\/img\/user\/ping.jpg",
+		"outputAbbreviatedPath": "\/Producter\/img\/user\/ping.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Producter\/img\/user\/ray.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14420,
+		"inputAbbreviatedPath": "\/Producter\/img\/user\/ray.jpg",
+		"outputAbbreviatedPath": "\/Producter\/img\/user\/ray.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Producter\/img\/user\/tangqiao.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16018,
+		"inputAbbreviatedPath": "\/Producter\/img\/user\/tangqiao.jpg",
+		"outputAbbreviatedPath": "\/Producter\/img\/user\/tangqiao.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/Producter\/img\/user\/wilson.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18138,
+		"inputAbbreviatedPath": "\/Producter\/img\/user\/wilson.jpg",
+		"outputAbbreviatedPath": "\/Producter\/img\/user\/wilson.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -131,17 +131,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/Producter\/script.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Producter\/script.js",
-		"outputAbbreviatedPath": "\/Producter\/min\/script-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
 		},
 	"\/Producter\/slick.min.js": {
 		"fileType": 64,
