@@ -72,7 +72,7 @@ users = [
         "name": "Ray",
         "bio": "Designer at Catch Inc",
         "avatar": "img/ray.jpg",
-        "say": "All your ideas are belong to real!",
+        "say": "All your ideas belongs to real!",
         "style": "short"
     },
     # {
