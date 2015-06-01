@@ -52,49 +52,49 @@ users = [
         "bio": "「MacTalk 出品人」",
         "avatar": "img/chijianqiang.jpg",
         "say": "人们每天起床，做着同样的事情，他们告诉自己，有一天要为世界做一款产品，但他们从不付诸行动。这是一本可以让你行动起来的技术、设计和产品之书。如果用一句话评价书中的产品「小记」，我想是：绝世而独立。",
-        "class": "long"
+        "style": "long"
     },
     {
         "name": "唐巧",
         "bio": "《iOS 开发进阶》作者",
         "avatar": "img/tangqiao.jpg",
         "say": "这是一本跨界的书，融合了设计、编程，以及市场营销的知识。作为一个只会编程的码农，本书将我带进了设计和市场营销的世界，有一种误入桃花源，发现新大陆的感觉。",
-        "class": "long"
+        "style": "long"
     },
     {
         "name": "Onevcat",
         "bio": "《Swifter》作者",
         "avatar": "img/onevcat.jpg",
         "say": "如果我只能通过一本书来帮自己走上设计道路的话，那么 Producter 是我唯一的选择。 ",
-        "class": "short"
+        "style": "normal"
     },
     {
         "name": "Ray",
         "bio": "Designer at Catch Inc",
         "avatar": "img/ray.jpg",
         "say": "All your ideas are belong to real!",
-        "class": "short"
+        "style": "short"
     },
     # {
     #     "name": "罗聪翼",
     #     "bio": "《Blender权威指南》作者",
     #     "avatar": "img/ray.jpg",
     #     "say": "Thanks to @kevinzhow I can Finally bring my idea into real! ",
-    #     "class": "short"
+    #     "style": "short"
     # },
     {
         "name": "Ping",
         "bio": "Founder of Color Code",
         "avatar": "img/ping.jpg",
         "say": "在我理解设计师不仅是一个造梦者，更需要是一个创造者，从设计到开发，再到营销， Kevin 正诠释了这一切！",
-        "class": "short"
+        "style": "normal"
     },
     {
         "name": "王伟兴",
         "bio": "爱范儿 创始人",
         "avatar": "img/wilson.jpg",
         "say": "热爱，方得始终。这是一本让你把热爱变为现实的最佳指南。 ",
-        "class": "normal"
+        "style": "short"
     }
 ]
 
@@ -152,7 +152,7 @@ quotes = new Array
 for u in users
 
     avatar = $('<img>',  {class: 'avatar', src:  u.avatar})
-    say    = $('<p>',    {class: 'say',   text:  u.say})
+    say    = $('<p>',    {class: 'say' + ' ' + u.style,   text:  u.say})
     name   = $('<p>',    {class: 'name',  text:  u.name})
     bio    = $('<span>', {class: 'bio',   text:  u.bio})
 
@@ -163,35 +163,17 @@ for u in users
 
     quotes.push user[0]
 
-
-$('.container').append quotes
+$('.quotes .container').append quotes
 
 $('.container').slick
     centerMode: true
-    centerPadding: '200px'
     slidesToShow: 1
     autoplay: true
     arrows: true
-    # responsive: [
-    #     {
-    #         breakpoint: 768
-    #         settings:
-    #             arrows: false
-    #             centerMode: true
-    #             centerPadding: '40px'
-    #             slidesToShow: 3
-    #     }
-    #     {
-    #         breakpoint: 480
-    #         settings:
-    #             arrows: false
-    #             centerMode: true
-    #             centerPadding: '40px'
-    #             slidesToShow: 1
-    #     }
-    # ]
-
-
+    variableWidth: true
+    focusOnSelect: true
+    prevArrow: '<button class="slick-prev"><img src="http://static-catch.qiniudn.com/arrow.svg"/></button>'
+    nextArrow: '<button class="slick-next"><img src="http://static-catch.qiniudn.com/arrow.svg"/></button>'
 
 
 
