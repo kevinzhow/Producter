@@ -177,5 +177,6 @@ $('.container').slick {
 
 
 
+
 if window.navigator.userAgent.indexOf("MicroMessenger") != -1
     $('.order a').attr('href', "http://shop2842401.koudaitong.com/v2/showcase/goods?alias=1ifh36uzz")

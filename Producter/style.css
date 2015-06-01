@@ -15,7 +15,13 @@ body > div {
   overflow: auto; }
 
 .hide {
-  display: none; }
+  display: none;
+  visibility: hidden;
+  background-color: transparent;
+  color: transparent;
+  z-index: -999;
+  width: 0;
+  height: 0; }
 
 .cover {
   width: 100%;
@@ -349,9 +355,11 @@ body > div {
         -ms-transform: rotate(180deg);
             transform: rotate(180deg); }
 
-.footer i {
-  margin-top: 250px;
-  display: block; }
+.footer {
+  overflow: hidden; }
+  .footer i {
+    margin-top: 250px;
+    display: block; }
 
 @media screen and (max-width: 1000px) {
   .cover {
