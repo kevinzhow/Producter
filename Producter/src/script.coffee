@@ -1,7 +1,7 @@
 book = [
     {
         "title": "Design",
-        "desc": "学习最实用的设计法则，\n在 Sketch 和 Framer 中进行原型设计。",
+        "desc": "学习最实用的设计法则，\n在 Sketch 和 Framer 中进行原型设计",
         "chapters":
             [
                 "从感觉开始",
