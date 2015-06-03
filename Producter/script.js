@@ -12,7 +12,7 @@
     }, {
       "title": "Code",
       "desc": "学习 Swift 和 iOS，\n掌握最实用的开发技巧与工具",
-      "chapters": ["Basic Swift Knowlege", "iOS Animations", "Facebook Pop", "Motion Graphic", "Git", "UICollectionView", "Custom Navgiation Transaction", "Custom UILabel and UIButton", "UIWebView", "Core Data", "UICollectionView Layout", "Cocoapods & Crashlystics"]
+      "chapters": ["Basic Swift Knowledge", "iOS Animations", "Facebook Pop", "Motion Graphic", "Git", "UICollectionView", "Custom Navgiation Transaction", "Custom UILabel and UIButton", "UIWebView", "Core Data", "UICollectionView Layout", "Cocoapods & Crashlystics"]
     }, {
       "title": "Market",
       "desc": "掌握产品营销的方法，\n把产品推向市场",

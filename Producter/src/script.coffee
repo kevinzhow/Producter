@@ -19,7 +19,7 @@ book = [
         "desc": "学习 Swift 和 iOS，\n掌握最实用的开发技巧与工具",
         "chapters":
             [
-                "Basic Swift Knowlege",
+                "Basic Swift Knowledge",
                 "iOS Animations",
                 "Facebook Pop",
                 "Motion Graphic",
