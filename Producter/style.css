@@ -360,91 +360,139 @@ body > div {
 
 @media screen and (max-width: 1000px) {
   .cover {
-    height: 800px; }
+    height: 400px; }
     .cover img.book {
-      width: 400px;
-      margin-top: 140px; }
+      width: 200px;
+      margin-top: 70px; }
 
   .order {
-    height: 1300px; }
+    height: 700px; }
     .order .button {
-      font-size: 36px;
-      width: 400px;
-      height: 100px;
-      line-height: 98px; }
+      font-size: 18px;
+      width: 200px;
+      height: 50px;
+      line-height: 49px;
+      margin: 25px; }
     .order .slogan {
-      font-size: 42px; }
+      font-size: 21px;
+      margin: 25px 0; }
     .order pre.story {
-      font-size: 30px;
-      width: 500px;
+      font-size: 15px;
+      width: 250px;
       margin: 0 auto;
-      margin-top: 100px;
+      margin-top: 50px;
       white-space: pre-wrap;
-      line-height: 50px;
+      line-height: 25px;
       text-align: left; }
 
-  .chapters .chapter {
-    width: auto;
-    height: 800px;
-    padding-left: 0;
-    padding-left: 10%; }
-    .chapters .chapter h1 {
-      position: static;
-      margin-left: 0;
-      font-size: 80px; }
-    .chapters .chapter pre {
-      position: static;
-      font-size: 30px;
-      margin: 10px 0; }
-    .chapters .chapter ul.sections {
-      position: static;
-      font-size: 30px;
-      line-height: 80px;
-      color: #808080;
-      border-top: 2px solid #F1F1F1;
-      list-style-position: inside;
-      margin-top: 50px;
-      padding-top: 20px;
-      width: 100%; }
-      .chapters .chapter ul.sections span:before {
-        margin-right: 20px; }
-    .chapters .chapter ul.drawer {
-      width: 90%;
-      height: 920px;
-      position: fixed;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      -webkit-column-count: 1;
-         -moz-column-count: 1;
-              column-count: 1;
-      font-size: 30px;
-      padding: 40px;
-      margin: 40px;
-      margin: auto;
-      -webkit-box-shadow: 0 0px 0px 200px rgba(0, 0, 0, 0.2);
-              box-shadow: 0 0px 0px 200px rgba(0, 0, 0, 0.2);
-      background-image: url(./img/x.png);
-      background-repeat: no-repeat;
-      background-position: top right;
-      background-size: 60px;
-      background-origin: content-box; }
-      .chapters .chapter ul.drawer li {
-        width: 100%;
-        height: 70px;
-        line-height: 70px; }
+  .apps {
+    height: 300px; }
+    .apps .macbook {
+      position: absolute;
+      left: 50%;
+      margin: 0;
+      margin-left: -300px;
+      -webkit-transform: scale(0.5);
+      -ms-transform: scale(0.5);
+          transform: scale(0.5); }
 
-  .quotes .container button {
-    visibility: hidden; }
-  .quotes .container button.slick-prev {
-    left: 0; }
-  .quotes .container button.slick-next {
-    right: 0; }
+  .chapters {
+    padding: 25px; }
+    .chapters .chapter {
+      width: auto;
+      height: 450px;
+      padding-left: 0;
+      padding-left: 10%; }
+      .chapters .chapter h1 {
+        position: static;
+        margin-left: 0;
+        font-size: 80px; }
+      .chapters .chapter pre {
+        position: static;
+        font-size: 15px;
+        margin: 10px 0; }
+      .chapters .chapter ul.sections {
+        position: static;
+        font-size: 15px;
+        line-height: 40px;
+        color: #808080;
+        border-top: 2px solid #F1F1F1;
+        list-style-position: inside;
+        margin-top: 25px;
+        padding-top: 20px;
+        width: 100%; }
+        .chapters .chapter ul.sections span:before {
+          margin-right: 20px; }
+      .chapters .chapter ul.drawer {
+        width: 90%;
+        height: 90%;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        -webkit-column-count: 1;
+           -moz-column-count: 1;
+                column-count: 1;
+        font-size: 15px;
+        padding: 20px;
+        margin: 20px;
+        margin: auto;
+        -webkit-box-shadow: 0 0px 0px 200px rgba(0, 0, 0, 0.2);
+                box-shadow: 0 0px 0px 200px rgba(0, 0, 0, 0.2);
+        background-image: url(./img/x.png);
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-size: 30px;
+        background-origin: content-box; }
+        .chapters .chapter ul.drawer li {
+          width: 100%;
+          height: 35px;
+          line-height: 35px; }
+
+  .quotes {
+    height: 250px;
+    padding: 0px 0; }
+    .quotes .container .slick-track {
+      height: 100%; }
+    .quotes .container .user {
+      width: 250px;
+      height: 200px;
+      margin: 0 10px; }
+      .quotes .container .user .card {
+        height: 180px;
+        margin-top: 35px;
+        -webkit-border-radius: 5px;
+                border-radius: 5px; }
+        .quotes .container .user .card .avatar {
+          width: 50px;
+          height: 50px;
+          margin-top: 20px; }
+        .quotes .container .user .card .say {
+          padding: 20px; }
+        .quotes .container .user .card .short {
+          font-size: 12px;
+          text-align: center;
+          margin-top: 5px; }
+        .quotes .container .user .card .normal {
+          padding: 20px 30px;
+          font-size: 10px; }
+        .quotes .container .user .card .long {
+          font-size: 10px; }
+      .quotes .container .user .info {
+        margin-top: 5px;
+        font-size: 10px;
+        padding-right: 5px; }
+    .quotes .container button {
+      visibility: hidden; }
+    .quotes .container button.slick-prev {
+      left: 0; }
+    .quotes .container button.slick-next {
+      right: 0; }
 
   .footer {
-    height: 700px; }
+    height: 350px; }
     .footer i {
       color: #808080;
-      margin-top: 230px;
-      font-size: 24px; } }
+      margin-top: 115px;
+      font-size: 12px; } }

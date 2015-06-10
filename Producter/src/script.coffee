@@ -89,7 +89,7 @@ users = [
         "bio": 'Producter of Weekr',
         "avatar": 'ping.jpg',
         "say": '在我理解设计师不仅是一个造梦者，更需要是一个创造者，从设计到开发，再到营销， Kevin 正诠释了这一切！',
-        "styles": "short"
+        "style": "normal"
     },
     {
         "name": "王伟兴",
@@ -173,6 +173,11 @@ $('.container').slick {
     focusOnSelect: true
     prevArrow: '<button class="slick-prev"><img src="' + cdn + 'arrow.svg"/></button>'
     nextArrow: '<button class="slick-next"><img src="' + cdn + 'arrow.svg"/></button>'
+    # responsive: [
+        # breakpoint: 1000
+        # settings:
+            # centerPadding: '10px'
+    # ]
 }
 
 

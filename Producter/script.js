@@ -50,7 +50,7 @@
       "bio": 'Producter of Weekr',
       "avatar": 'ping.jpg',
       "say": '在我理解设计师不仅是一个造梦者，更需要是一个创造者，从设计到开发，再到营销， Kevin 正诠释了这一切！',
-      "styles": "short"
+      "style": "normal"
     }, {
       "name": "王伟兴",
       "bio": "爱范儿 创始人",
