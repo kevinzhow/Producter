@@ -1,4 +1,4 @@
-cdn = 'http://static-catch.qiniudn.com/'
+cdn = 'http://7j1zot.com1.z0.glb.clouddn.com/'
 
 book = [
     {

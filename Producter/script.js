@@ -2,7 +2,7 @@
 (function() {
   var a, avatar, bio, book, c, card, cdn, chapter, fullList, i, info, j, k, l, len, len1, len2, m, name, quotes, ref, say, sections, u, user, users;
 
-  cdn = 'http://static-catch.qiniudn.com/';
+  cdn = 'http://7j1zot.com1.z0.glb.clouddn.com/';
 
   book = [
     {
